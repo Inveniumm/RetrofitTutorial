@@ -12,6 +12,7 @@
         android:theme="@style/Theme.RetrofitTutorial">
         <activity
             android:name=".MainActivity"
+            android:label="@string/homepage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
