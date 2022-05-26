@@ -3,9 +3,7 @@ package com.invenium.retrofittutorial.model
 import com.google.gson.annotations.SerializedName
 
 data class Post(
-    @SerializedName("userId")
-    val myUserId: Int,
-    val id: Int,
-    val title: String,
-    val  body: String
+    val icon_url: String,
+    val url: String,
+    val value: String
 )

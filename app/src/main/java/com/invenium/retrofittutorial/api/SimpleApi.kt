@@ -1,10 +1,12 @@
 package com.invenium.retrofittutorial.api
 
+import com.google.gson.JsonElement
 import com.invenium.retrofittutorial.model.Post
+import retrofit2.Response
 import retrofit2.http.GET
 
 interface SimpleApi {
 
-    @GET("post/1")
-    suspend fun getPost(): Post
+    @GET("random")
+    suspend fun getPost(): Response<Post>
 }
