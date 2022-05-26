@@ -7,7 +7,56 @@
     <fragment
         android:id="@+id/categoriesFragment"
         android:name="com.invenium.retrofittutorial.categories.CategoriesFragment"
-        android:label="CategoriesFragment" />
+        android:label="CategoriesFragment" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_animalFragment"
+            app:destination="@id/animalFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_careerFragment"
+            app:destination="@id/careerFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_celebrityFragment"
+            app:destination="@id/celebrityFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_devFragment"
+            app:destination="@id/devFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_explicitFragment"
+            app:destination="@id/explicitFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_fashionFragment"
+            app:destination="@id/fashionFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_foodFragment"
+            app:destination="@id/foodFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_moneyFragment"
+            app:destination="@id/moneyFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_movieFragment"
+            app:destination="@id/movieFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_politicalFragment"
+            app:destination="@id/politicalFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_religionFragment"
+            app:destination="@id/religionFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_scienceFragment"
+            app:destination="@id/scienceFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_sportFragment"
+            app:destination="@id/sportFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_travelFragment"
+            app:destination="@id/travelFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_musicFragment"
+            app:destination="@id/musicFragment" />
+    </fragment>
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.invenium.retrofittutorial.home.HomeFragment"
@@ -16,4 +65,68 @@
             android:id="@+id/action_homeFragment_to_categoriesFragment"
             app:destination="@id/categoriesFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/animalFragment"
+        android:name="com.invenium.retrofittutorial.categories.animal.AnimalFragment"
+        android:label="AnimalFragment" />
+    <fragment
+        android:id="@+id/careerFragment"
+        android:name="com.invenium.retrofittutorial.categories.career.CareerFragment"
+        android:label="CareerFragment" />
+    <fragment
+        android:id="@+id/celebrityFragment"
+        android:name="com.invenium.retrofittutorial.categories.celebrity.CelebrityFragment"
+        android:label="CelebrityFragment" />
+    <fragment
+        android:id="@+id/devFragment"
+        android:name="com.invenium.retrofittutorial.categories.dev.DevFragment"
+        android:label="DevFragment" />
+    <fragment
+        android:id="@+id/explicitFragment"
+        android:name="com.invenium.retrofittutorial.categories.explicit.ExplicitFragment"
+        android:label="ExplicitFragment" />
+    <fragment
+        android:id="@+id/fashionFragment"
+        android:name="com.invenium.retrofittutorial.categories.fashion.FashionFragment"
+        android:label="FashionFragment" />
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.invenium.retrofittutorial.categories.food.FoodFragment"
+        android:label="FoodFragment" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.invenium.retrofittutorial.categories.history.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/moneyFragment"
+        android:name="com.invenium.retrofittutorial.categories.money.MoneyFragment"
+        android:label="MoneyFragment" />
+    <fragment
+        android:id="@+id/movieFragment"
+        android:name="com.invenium.retrofittutorial.categories.movie.MovieFragment"
+        android:label="MovieFragment" />
+    <fragment
+        android:id="@+id/politicalFragment"
+        android:name="com.invenium.retrofittutorial.categories.political.PoliticalFragment"
+        android:label="PoliticalFragment" />
+    <fragment
+        android:id="@+id/religionFragment"
+        android:name="com.invenium.retrofittutorial.categories.religion.ReligionFragment"
+        android:label="ReligionFragment" />
+    <fragment
+        android:id="@+id/scienceFragment"
+        android:name="com.invenium.retrofittutorial.categories.science.ScienceFragment"
+        android:label="ScienceFragment" />
+    <fragment
+        android:id="@+id/sportFragment"
+        android:name="com.invenium.retrofittutorial.categories.sport.SportFragment"
+        android:label="SportFragment" />
+    <fragment
+        android:id="@+id/travelFragment"
+        android:name="com.invenium.retrofittutorial.categories.travel.TravelFragment"
+        android:label="TravelFragment" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.invenium.retrofittutorial.categories.music.MusicFragment"
+        android:label="MusicFragment" />
 </navigation>

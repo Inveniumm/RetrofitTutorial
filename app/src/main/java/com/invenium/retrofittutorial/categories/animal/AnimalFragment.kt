@@ -1,4 +1,6 @@
 package com.invenium.retrofittutorial.categories.animal
 
-class AnimalFragment {
+import androidx.fragment.app.Fragment
+
+class AnimalFragment : Fragment() {
 }

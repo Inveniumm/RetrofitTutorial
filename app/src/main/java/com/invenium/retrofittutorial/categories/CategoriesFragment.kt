@@ -37,13 +37,57 @@ class CategoriesFragment : Fragment() {
         val viewModelFactory = HomeFragmentVMFactory(repository)
         viewModel = ViewModelProvider(this, viewModelFactory)[HomeFragmentVM::class.java]
 
-//        binding.randomiserBtn.setOnClickListener{
-//            viewModel.getPost()
-//        }
-//
-//        binding.categoriesBtn.setOnClickListener{
-//            findNavController().navigate(R.id.action_homeFragment_to_categoriesFragment)
-//        }
+        binding.animalBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_animalFragment)
+        }
+
+        binding.careerBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_careerFragment)
+        }
+
+        binding.celebrityBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_celebrityFragment)
+        }
+
+        binding.devBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_devFragment)
+        }
+        binding.explicitBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_explicitFragment)
+        }
+        binding.fashionBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_fashionFragment)
+        }
+        binding.foodBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_foodFragment)
+        }
+        binding.historyBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_historyFragment)
+        }
+        binding.moneyBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_moneyFragment)
+        }
+        binding.movieBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_movieFragment)
+        }
+        binding.musicBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_musicFragment)
+        }
+        binding.politicalBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_politicalFragment)
+        }
+        binding.religionBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_religionFragment)
+        }
+        binding.scienceBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_scienceFragment)
+        }
+        binding.sportBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_sportFragment)
+        }
+        binding.travelBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_categoriesFragment_to_travelFragment)
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
