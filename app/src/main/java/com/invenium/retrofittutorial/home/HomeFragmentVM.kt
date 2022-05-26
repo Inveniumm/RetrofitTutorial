@@ -1,4 +1,4 @@
-package com.invenium.retrofittutorial
+package com.invenium.retrofittutorial.home
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,7 +8,7 @@ import com.invenium.retrofittutorial.repository.Repository
 import kotlinx.coroutines.launch
 import retrofit2.Response
 
-class MainViewModel(private val repository: Repository) : ViewModel() {
+class HomeFragmentVM(private val repository: Repository) : ViewModel() {
 
     val myResponse: MutableLiveData<Response<Post>> = MutableLiveData()
 
